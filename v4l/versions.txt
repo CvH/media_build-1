@@ -2,6 +2,9 @@
 [9.255.255]
 VIDEO_IPU3_IMGU
 VIDEO_DW9714
+CEC_NOTIFIER
+MEDIA_CEC_RC
+MEDIA_CEC_SUPPORT
 
 [5.2]
 # Needs fwnode_graph_get_endpoint_by_id
