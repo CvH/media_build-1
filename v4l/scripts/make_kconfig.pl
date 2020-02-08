@@ -626,14 +626,6 @@ open_kconfig('../linux', './Kconfig.staging');
 close OUT;
 
 # These options should default to off
-disable_config('VIDEO_CX25840');
-disable_config('VIDEO_SAA7146');
-disable_config('VIDEO_SAA7146_VV');
-disable_config('MEDIA_ANALOG_TV_SUPPORT');
-disable_config('MEDIA_CAMERA_SUPPORT');
-disable_config('MEDIA_CEC_SUPPORT');
-disable_config('SOC_CAMERA');
-disable_config('CEC_CORE');
 disable_config('DVB_AV7110_FIRMWARE');
 disable_config('DVB_CINERGYT2_TUNING');
 disable_config('VIDEO_HELPER_CHIPS_AUTO');
