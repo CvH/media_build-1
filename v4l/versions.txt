@@ -30,7 +30,6 @@ DVB_MXL5XX
 DVB_SAA716X_FF
 MEDIA_TUNER_R848
 VIDEO_CX25840
-VIDEO_SAA7146_VV
 
 [5.2]
 # Needs fwnode_graph_get_endpoint_by_id
